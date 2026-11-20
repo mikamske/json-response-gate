@@ -1,6 +1,6 @@
 # JSON Response Gate
 
-[![CI](https://github.com/luminosstudioai-creator/json-response-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/luminosstudioai-creator/json-response-gate/actions/workflows/ci.yml)
+[![CI](https://github.com/mikamske/json-response-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/mikamske/json-response-gate/actions/workflows/ci.yml)
 
 **A model saying “here is your JSON” is not an application contract.**
 This small Python library accepts a complete JSON response only when every
@@ -23,7 +23,7 @@ flowchart LR
 ## Try it in 30 seconds
 
 ```sh
-git clone https://github.com/luminosstudioai-creator/json-response-gate.git
+git clone https://github.com/mikamske/json-response-gate.git
 cd json-response-gate
 python3 demo.py
 ```
@@ -90,6 +90,14 @@ python3 -m pip install --no-deps .
 CI runs tests, installs the package and imports it outside the checkout on
 Python 3.11, 3.12 and 3.13. No runtime dependencies, API credentials or paid model
 calls are required. Build tooling is separate from the runtime.
+
+## Related projects
+
+- [tidyguard](https://github.com/mikamske/tidyguard): keeps coding agents from leaving notes, rewritten specs and leftovers behind
+- [ki-inventur](https://github.com/mikamske/ki-inventur): finds AI services in your code and keeps the GDPR register in sync (German)
+- [receiptgate](https://github.com/mikamske/receiptgate): binds deploys and merges to command receipts for the exact code state
+- [local-model-eval](https://github.com/mikamske/local-model-eval): replays recorded LLM answers against explicit rubrics
+- [ai-context-redactor](https://github.com/mikamske/ai-context-redactor): removes selected sensitive patterns before text reaches a model
 
 ## Provenance
 

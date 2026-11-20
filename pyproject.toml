@@ -13,7 +13,7 @@ authors = [{name = "Mika Mischke"}]
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/luminosstudioai-creator/json-response-gate"
+Repository = "https://github.com/mikamske/json-response-gate"
 
 [tool.setuptools]
 py-modules = ["gate"]
